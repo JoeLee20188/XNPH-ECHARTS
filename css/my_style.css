@@ -1,0 +1,147 @@
+*{
+    font-family: "Microsoft YaHei UI Light";
+
+}
+body,div,header,footer,ul,li{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    width: 80%;
+    height: 2400px;
+    background-color: transparent;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #ea2939;
+    float: left;
+    color: #ffffff;
+
+}
+header nav{
+    float: left;
+}
+header .topMenu{
+    width: 100px;
+    float: left;
+    list-style: none;
+    line-height: 60px;
+    text-align: center;
+    padding: 0 10px;
+    color: white;
+    font-size: 16px;
+}
+.topMenu a{
+    text-decoration: none;
+    color: white;
+}
+.topMenu:hover{
+    background-color: #ff6464;
+    font-weight: bolder;
+}
+.topMenu:hover ul{
+    display: block;
+    font-weight: normal;
+}
+.topMenu ul{
+    width: 25%;
+    height: 3%;
+    position:absolute;
+    display: none;
+}
+.topMenu ul li{
+    width: 100px;
+    list-style: none;
+    line-height: 36px;
+    float: left;
+    background-color:#ea2939;
+    padding: 5px;
+    margin: 1px;
+    font-size: 15px;
+
+}
+.topMenu ul li a{
+    width: 100px;
+    float: left;
+    text-align: center;
+    line-height: 36px;
+}
+header #timer{
+    width: 10%;
+    height: 100%;
+    float: right;
+}
+#timeText{
+    color: white;
+    font-size: 20px;
+    height: 60%;
+    width: 60%;
+    margin:auto auto;
+    padding: 0 auto;
+    text-align: center;
+    line-height: 60px;
+}
+header #help{
+    float:right;
+}
+header #help ul li{
+    width: 100px;
+    float: left;
+    list-style: none;
+    line-height: 60px;
+    text-align: center;
+    padding: 0 10px;
+    color: white;
+}
+
+#mainBody{
+    width: 100%;
+    height: 95%;
+    float: left;
+}
+
+#topTitle{
+    height: 3%;
+    text-align: center;
+    font-size: 36px;
+}
+#content{
+    height: 97%;
+    width: 100%;
+}
+.firstFloor{
+    height: 25%;
+    width: 100%;
+}
+.secFloor{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+.thirdFloor{
+    margin: 3%;
+    width: 94%;
+    height: 94%;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 2.5%;
+    background-color: #ea2939;
+    clear: both;
+    text-align: center;
+    color: #ffffff;
+}
+footer p{
+    font-family: "Berlin Sans FB";
+    font-size: 36px;
+    display: block;
+    line-height: 60px;
+}

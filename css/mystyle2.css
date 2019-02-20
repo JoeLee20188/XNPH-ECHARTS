@@ -1,0 +1,163 @@
+*{
+    font-family: "Microsoft YaHei UI Light";
+
+}
+body,div,header,footer,ul,li{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    width: 70%;
+    height: 2400px;
+    background-color: transparent;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #ea2939;
+    float: left;
+    color: #ffffff;
+}
+header nav{
+    float: left;
+}
+header .topMenu{
+    width: 100px;
+    float: left;
+    list-style: none;
+    line-height: 60px;
+    text-align: center;
+    padding: 0 10px;
+    color: white;
+    font-size: 16px;
+}
+.topMenu a{
+    text-decoration: none;
+    color: white;
+}
+.topMenu:hover{
+    background-color: #ff6464;
+    font-weight: bolder;
+}
+.topMenu:hover ul{
+    display: block;
+    font-weight: normal;
+}
+.topMenu ul{
+    width: 25%;
+    height: 3%;
+    position:absolute;
+    display: none;
+}
+.topMenu ul li{
+    width: 100px;
+    list-style: none;
+    line-height: 36px;
+    float: left;
+    background-color:#ea2939;
+    padding: 5px;
+    margin: 1px;
+    font-size: 15px;
+
+}
+.topMenu ul li a{
+    width: 100px;
+    float: left;
+    text-align: center;
+    line-height: 36px;
+
+}
+header #help{
+    float:right;
+}
+header #help ul li{
+    width: 100px;
+    float: left;
+    list-style: none;
+    line-height: 60px;
+    text-align: center;
+    padding: 0 10px;
+    color: white;
+}
+
+#mainBody{
+    width: 100%;
+    height: 95%;
+    background-color: #ffffff;
+    float: left;
+}
+#mainBody .firstBody{
+    width: 100%;
+
+}
+#mainBody #firstBody1{
+    height: 25%;
+    border-bottom: solid thin #ac2925;
+}
+#mainBody #firstBody1 .secBody{
+    width: 100%;
+    float: left;
+}
+#mainBody  #firstBody1 #secBody1{
+    height: 20%;
+    background-color: #FFFFFF;
+}
+#mainBody #firstBody1 #secBody2{
+    height: 80%;
+}
+#mainBody #firstBody1 .secBody .thirdBody{
+    width: 46%;
+    height: 96%;
+    float: left;
+    padding: 2%;
+}
+#mainBody #firstBody1 #secBody2 #weekAmount{
+
+}
+#maps{
+    height: 25%;
+    border-bottom: solid thin #ac2925;
+}
+#maps #mapsWord{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+#maps #mapsMap{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+#overdue{
+    height: 25%;
+    border-bottom: solid thin #ac2925;
+}
+#overdue #overdue_pie{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+#overdue #overdue_table{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+#returnLine{
+    height: 25%;
+    border-bottom: none;
+}
+
+h1{
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 2.5%;
+    background-color: cadetblue;
+    clear: both;
+}
+footer p{
+    text-align: center;
+}

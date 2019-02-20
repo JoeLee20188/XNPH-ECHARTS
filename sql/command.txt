@@ -1,0 +1,23 @@
+导入数据库，本地目录：mysql -h localhost -u root -p test < sheju.sql
+mysql -h localhost -u root -p
+
+use sheju;
+
+load data local infile 'D:/wamp/www/temp/sql/dom.tdl' into table dormitory fields terminated by '|' lines terminated by '|\r\n';
+
+load data local infile 'D:/wamp/www/temp/sql/manager.tdl' into table manager fields terminated by '|' lines terminated by '|\r\n';
+
+load data local infile 'D:/wamp/www/temp/sql/member.tdl' into table member fields terminated by '|' lines terminated by '|\r\n';
+
+load data local infile 'D:/wamp/www/temp/sql/letter.tdl' into table letter fields terminated by '|' lines terminated by '|\r\n';
+
+load data local infile 'D:/wamp/www/temp/sql/message.tdl' into table message fields terminated by '|' lines terminated by '|\r\n';
+
+load data local infile 'D:/wamp/www/temp/sql/fee.tdl' into table fees fields terminated by '|' lines terminated by '|\r\n';
+
+load data local infile 'D:/wamp/www/temp/sql/belonto.tdl' into table mBelongToD fields terminated by '|' lines terminated by '|\r\n';
+
+load data local infile 'D:/wamp/www/temp/sql/notify.tdl' into table notify fields terminated by '|' lines terminated by '|\r\n';
+
+load data local infile 'D:/wamp/www/temp/sql/sendto.tdl' into table send fields terminated by '|' lines terminated by '|\r\n';
+
